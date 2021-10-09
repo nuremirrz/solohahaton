@@ -163,5 +163,36 @@
       "id": 18
     }
   ],
-  "users": []
+  "users": [
+    {
+      "name": "Diana",
+      "comment": "woooow",
+      "id": 1
+    },
+    {
+      "name": "Ishen",
+      "comment": "cold water",
+      "id": 2
+    },
+    {
+      "name": "Emirlan",
+      "comment": "Вода очень тёплая.Спасибо что подарили возможность посетить такое красивое место))",
+      "id": 3
+    },
+    {
+      "name": "Helen",
+      "comment": "thank you for a tour of such a beautiful country rich in history and heritage",
+      "id": 4
+    },
+    {
+      "name": "Адилет",
+      "comment": "Как же красива наша страна",
+      "id": 5
+    },
+    {
+      "name": "Грозный",
+      "comment": "Сначала подумал, что цена не соответствует турбилетам, поэтому решил посетить крепость Кан и остался очень доволен)Спасибо вам огромное",
+      "id": 6
+    }
+  ]
 }

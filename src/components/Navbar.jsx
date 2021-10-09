@@ -217,7 +217,7 @@ export default function Navbar() {
   useEffect(() =>{
     setSearchValue(search.get('q') || "")
   }, [history.location])
-  console.log(history.location)
+  // console.log(history.location)
 
     //search ended
   return (

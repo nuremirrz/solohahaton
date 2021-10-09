@@ -1,5 +1,6 @@
 import { Container } from '@material-ui/core';
 import React, { useContext, useEffect } from 'react';
+import CommentTable from '../components/CommentTable';
 import Loader from '../components/Loader';
 import Navbar from '../components/Navbar';
 import { clientContext } from '../contexts/ClientContext';
@@ -9,29 +10,15 @@ const CommentPage = () => {
     useEffect(() => {
       getComment()
     },[])
-    console.log(comments)
+    
     return (
         <>
             <Navbar/>
             <Container>
-            <div >
-                   {
-                       comments ? (
-                        comments.map((item)=>(
-                            <div className="comment">
-                                <h2>Comment</h2>
-                                <div className="comment-block">
-                                    <h3>{item.comment}</h3>
-
-                                </div>
-
-                            </div>
-                        ))
-                    ):(
-                        <Loader />
-                    )
-                   }
-            </div>
+                <div>
+                    <CommentTable/>   
+                    <Loader />
+                </div>
             </Container>
         </>
     );
